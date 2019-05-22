@@ -10,7 +10,7 @@ AARTI DALVI (RED ID: 823329904)
 
 2. DESCRIPTION/ABSTRACT:
 
-What happens when you are new to a place, don’t know anyone and need a help? Can you go around, ask for help and trust their answers too? Find my buddy is a solution to all these problems! You can find buddies near you to get help with the queries that you may have about the new place.
+What happens when you are new to a place, donâ€™t know anyone and need a help? Can you go around, ask for help and trust their answers too? Find my buddy is a solution to all these problems! You can find buddies near you to get help with the queries that you may have about the new place.
 
 
 Features of the application:
@@ -25,7 +25,7 @@ Features of the application:
 
 5.       Update profile when you learn a new language or have any updates!
 
-6.       If you are a buddy for someone else, don’t worry, your identity is protected because person asking for your help can only see your nickname (which you choose!).
+6.       If you are a buddy for someone else, donâ€™t worry, your identity is protected because person asking for your help can only see your nickname (which you choose!).
 
 7.       If you are a buddy for someone, your location shown is approximated, hence protecting you from any kind of issues.
 
@@ -36,6 +36,8 @@ Features of the application:
 3. SPECIAL INSTRUCTIONS:
 
 User needs to enable Internet access in order to get registered successfully in the application. Later, application will also need to have access to user location and application will ask for it.
+
+Add firebase google json to this project to connect to firebase database.
 
 
 4. THIRD PARTY LIBRARIES TO DOWNLOAD:

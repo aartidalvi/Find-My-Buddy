@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+
+    <item android:id="@+id/menu_maps"
+          android:title="@string/maps"
+    />
+
+    <item android:id="@+id/menu_users"
+          android:title="@string/users"
+    />
+
+    <item android:id="@+id/menu_updateprofile"
+          android:title="@string/updateprofile">
+    </item>
+
+    <item android:id="@+id/menu_signout"
+          android:title="@string/signout"/>
+</menu>

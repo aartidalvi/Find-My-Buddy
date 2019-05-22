@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                tools:context="com.example.geo.Activities.SignInActivity">
+
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/chat_with_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            app:titleTextColor="@android:color/white" />
+
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:background="@color/appBackground"
+            android:orientation="vertical"
+            android:padding="30dp"
+            >
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+    >
+        <EditText
+                android:id="@+id/signInEmailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_id"
+                android:ems="20"
+                android:inputType="textEmailAddress"
+                android:textSize="22sp"
+
+        />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+    >
+        <EditText
+                android:id="@+id/signInPasswordText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:ems="20"
+                android:inputType="textPassword"
+                android:textSize="22sp"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+            <Button
+                    android:id="@+id/ssignInButton"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/SIGNIN"
+                    android:layout_gravity="center_horizontal"
+
+            />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

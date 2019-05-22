@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical"
+                tools:context="com.example.geo.Activities.SignInActivity">
+
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/chat_with_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            app:titleTextColor="@android:color/white" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:background="@color/appBackground"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true">
+            <EditText
+                    android:id="@+id/unameText" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:hint="@string/full_name"
+                    android:ems="20"
+                    android:inputType="text"
+                    android:textSize="22sp"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+        <com.thomashaertel.widget.MultiSpinner
+                android:id="@+id/languageSpinneru"
+                android:prompt="@string/LANGUAGES"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+        />
+
+        <Spinner
+                android:id="@+id/nationalitySpinneru"
+                android:prompt="@string/NATIONALITY"
+                android:layout_width="274dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+
+        />
+        <ProgressBar
+                android:id="@+id/progressbaru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+        />
+
+
+
+        <Button
+                android:id="@+id/update"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/UPDATE"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+    </LinearLayout>
+</RelativeLayout>
